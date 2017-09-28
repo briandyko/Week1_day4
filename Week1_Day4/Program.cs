@@ -24,12 +24,50 @@ namespace Week1_Day4
             //string bestFriends = firstName + " " + dogName;
             //Console.WriteLine(bestFriends);
 
-           string bestFriends = string.Concat(firstName, " ", dogName);
-           Console.WriteLine(bestFriends);
+            //string bestFriends = string.Concat(firstName, " ", dogName);
+            //Console.WriteLine(bestFriends);
 
-            Console.WriteLine(firstName.Length);
-            Console.WriteLine(bestFriends.Length);
+            // int daniellength = firstName.Length;
 
+            // Console.WriteLine(firstName.Length);
+            // Console.WriteLine(bestFriends.Length);
+
+            //-----
+
+            // string myFirst = Console.ReadLine();
+            // string myLast = Console.ReadLine();
+
+            // Console.WriteLine(myFirst.Length);
+            // Console.WriteLine(myLast.Length);
+
+            // if (myFirst.Length > myLast.Length)
+            // {
+            //     Console.WriteLine("First is longer.");
+            // }
+            //else if (myFirst.Length==myLast.Length)
+            // {
+            //     Console.WriteLine("Samsis.");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("last must be longer.");
+            // }
+            //----------------
+
+            string person = "Peggy";
+            string diffPerson = "Peggy";
+
+            //if (person == diffPerson)
+            //{
+            //    Console.WriteLine("The names are the same.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The names are different.");
+            //}
+
+            bool okay = string.Equals(person, diffPerson);
+            Console.WriteLine(okay)
 
 
         }
