@@ -16,8 +16,8 @@ namespace Week1_Day4
             //Console.WriteLine("This is a \n new line.");
             //Console.WriteLine("And this is a bell \a");
 
-            string firstName = "Daniel";
-            string dogName = "Gus";
+            //string firstName = "Daniel";
+            //string dogName = "Gus";
 
             //Console.WriteLine("My name is {0} and my dog is {1}.", firstName, dogName);
 
@@ -54,8 +54,8 @@ namespace Week1_Day4
             // }
             //----------------
 
-            string person = "Peggy";
-            string diffPerson = "Peggy";
+            //string person = "Peggy";
+            //string diffPerson = "Margaret";
 
             //if (person == diffPerson)
             //{
@@ -66,8 +66,34 @@ namespace Week1_Day4
             //    Console.WriteLine("The names are different.");
             //}
 
-            bool okay = string.Equals(person, diffPerson);
-            Console.WriteLine(okay)
+            //bool okay = string.Equals(person, diffPerson);
+            //Console.WriteLine(okay)
+
+            //Console.WriteLine("What is your first name?");
+            //string fname = Console.ReadLine();
+
+            //Console.WriteLine("What is your last name?");
+            //string lname = Console.ReadLine();
+
+            //Console.WriteLine("Your full name is full name is " + fname + " " + lname);
+
+            Console.WriteLine("Guess the type of animal? (hint: not a dog)");
+            string pet = Console.ReadLine();
+
+            string answer = "cat";
+
+
+            if (pet.ToLower() == answer)
+                {
+                Console.WriteLine("You guessed correctly!");
+            }
+            else
+            {
+                Console.WriteLine("You guessed incorrectly");
+            }
+
+
+
 
 
         }
